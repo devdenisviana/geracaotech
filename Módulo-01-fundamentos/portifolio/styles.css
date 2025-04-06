@@ -1,0 +1,40 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: #f0f0f0;
+    margin: 2em;
+    padding: 2em;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Estilo para os itens da lista de habilidades */
+  .habilidade-html {
+    color: orange;
+    font-size: 18px;
+  }
+  
+  .habilidade-css {
+    color: blue;
+    font-size: 18px;
+  }
+  
+  .habilidade-js {
+    color: green;
+    font-size: 18px;
+  }
+  
+  /* Seletor restritivo para parágrafos dentro da div.bio */
+  .bio p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+  }
+  
+  /* Unidades relativas */
+  section ul {
+    padding-left: 1.5em;
+  }
+  
+  .bio {
+    margin-top: 2em;
+  }
+  
