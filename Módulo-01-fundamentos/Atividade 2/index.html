@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Página Semântica</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header, nav, main, section, article {
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    header {
+      background-color: #e3f2fd;
+    }
+
+    nav {
+      background-color: #f1f8e9;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2e7d32;
+    }
+
+    article, section {
+      background-color: #fff3e0;
+    }
+
+    .media {
+      background-color: #ede7f6;
+    }
+
+    h1, h2, h3 {
+      color: #1e88e5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo à Minha Página</h1>
+    <h2>Aprendendo HTML Semântico</h2>
+    <p>Esta página foi criada como exercício para praticar a estruturação semântica e a incorporação de elementos multimídia com HTML.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#artigo">Artigo</a></li>
+      <li><a href="#lista">Lista</a></li>
+      <li><a href="#midia">Mídia</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article id="artigo">
+      <h2>Sobre HTML Semântico</h2>
+      <p>HTML semântico ajuda a estruturar melhor a informação, tornando-a mais clara para humanos e máquinas.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea illum ipsam dicta ad porro at, blanditiis unde, molestias itaque, voluptatibus sed fugiat sit officia autem harum odio? Suscipit, dolore blanditiis.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolores eligendi veniam, fuga illum rerum dolor, rem enim quibusdam facere quia beatae laudantium, voluptas porro provident adipisci obcaecati harum alias?</p>
+    </article>
+
+    <section id="lista">
+      <h3>Vantagens do HTML Semântico</h3>
+      <ul>
+        <li>Melhor acessibilidade</li>
+        <li>SEO aprimorado</li>
+        <li>Código mais organizado</li>
+      </ul>
+    </section>
+
+    <section id="midia" class="media">
+        
+        <h3>Exemplos de Mídia</h3>
+            <p>Abaixo temos um exemplo de áudio, vídeo e imagem incorporados à página:</p>
+          
+        <h4>Áudio:</h4>
+            <audio controls>
+              <source src="./midias/audio.mp3" type="audio/mpeg">
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+          
+        <h4>Vídeo:</h4>
+            <video width="320" height="240" controls>
+              <source src="./midias/video.mp4" type="video/mp4">
+              Seu navegador não suporta vídeo HTML5.
+            </video>
+          
+        <h4>Imagem:</h4>
+            <img src="./midias/imagem.jpg" alt="Exemplo ilustrativo" width="320">
+      
+    </section>
+  </main>
+</body>
+</html>

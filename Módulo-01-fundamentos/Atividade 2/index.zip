@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Página Semântica com Multimídia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+
+    header, nav, main, section, article {
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho da Página -->
+  <header>
+    <h1>Bem-vindo à Minha Página</h1>
+    <h2>Explorando HTML Semântico com Multimídia</h2>
+    <p>Esta página demonstra o uso de elementos semânticos e multimídia com HTML5, além de estilos básicos aplicados diretamente no documento.</p>
+  </header>
+
+  <!-- Menu de Navegação -->
+  <nav>
+    <ul>
+      <li><a href="#artigo">Artigo</a></li>
+      <li><a href="#informacoes">Informações</a></li>
+      <li><a href="#midia">Mídia</a></li>
+    </ul>
+  </nav>
+
+  <!-- Seção Principal -->
+  <main>
+
+    <!-- Artigo Principal -->
+    <article id="artigo">
+      <h2>O Poder do HTML Semântico</h2>
+      <p>Utilizar HTML semântico ajuda a estruturar melhor o conteúdo, melhora a acessibilidade e facilita o entendimento por mecanismos de busca.</p>
+    </article>
+
+    <!-- Seção com Lista -->
+    <section id="informacoes">
+      <h3>Benefícios do HTML Semântico</h3>
+      <ul>
+        <li>Melhora a acessibilidade</li>
+        <li>Facilita a manutenção do código</li>
+        <li>Aumenta a visibilidade nos mecanismos de busca</li>
+      </ul>
+    </section>
+
+    <!-- Seção Multimídia -->
+    <section id="midia">
+      <h3>Galeria Multimídia</h3>
+
+      <!-- Áudio -->
+      <p>Ouça este áudio de exemplo:</p>
+      <audio controls>
+        <source src="audio-exemplo.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio HTML5.
+      </audio>
+
+      <!-- Vídeo -->
+      <p>Assista este vídeo de exemplo:</p>
+      <video width="320" height="240" controls>
+        <source src="video-exemplo.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo HTML5.
+      </video>
+    </section>
+
+  </main>
+
+</body>
+</html>
