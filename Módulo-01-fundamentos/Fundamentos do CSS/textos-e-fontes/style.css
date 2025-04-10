@@ -1,0 +1,62 @@
+/* Define um tamanho de fonte base no html */
+html {
+    font-size: 16px; /* 1rem = 16px */
+  }
+  
+  body {
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  /* px: tamanho fixo */
+  .box-px {
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* em: relativo ao elemento pai (herda tamanho do body ou do container) */
+  .box-em {
+    width: 20em;
+    height: 5em;
+    background-color: lightseagreen;
+    font-size: 1.5em; /* 1.5 x tamanho do body (16px) */
+    margin-bottom: 10px;
+  }
+  
+  /* rem: relativo ao root (html) */
+  .box-rem {
+    width: 25rem;
+    height: 6rem;
+    background-color: lightskyblue;
+    font-size: 1rem; /* 1 x tamanho do html (16px) */
+    margin-bottom: 10px;
+  }
+  
+  /* %: relativo ao elemento pai (neste caso, body) */
+  .box-percent {
+    width: 80%;
+    height: 60px;
+    background-color: lightgreen;
+    font-size: 120%;
+    margin-bottom: 10px;
+  }
+  
+  /* vw e vh: porcentagem da largura/altura da janela de visualização */
+  .box-vw-vh {
+    width: 50vw;
+    height: 20vh;
+    background-color: khaki;
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilização final */
+  .descricao {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+  }
+  

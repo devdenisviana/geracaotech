@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unidades de Medida CSS - Interativo</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <h1>Unidades CSS Dinâmicas</h1>
+
+  <label for="unidade">Escolha uma unidade:</label>
+  <select id="unidade">
+    <option value="px">px</option>
+    <option value="em">em</option>
+    <option value="rem">rem</option>
+    <option value="%">%</option>
+    <option value="vwvh">vw/vh</option>
+  </select>
+
+  <div id="caixa" class="caixa">Caixa de exemplo</div>
+
+  <p class="descricao">
+    Esta caixa muda de tamanho e fonte de acordo com a unidade selecionada.
+  </p>
+
+  <script src="script.js"></script>
+</body>
+</html>

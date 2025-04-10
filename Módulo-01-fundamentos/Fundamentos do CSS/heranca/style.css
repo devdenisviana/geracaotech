@@ -1,0 +1,19 @@
+p {
+    color: red;
+    font-size: 20px;
+}
+
+div p {
+    color: blue;
+    font-size: 30px;
+}
+
+.segunda-section > p {
+    color: blueviolet;
+    font-size: 40px;
+}
+
+.primeira-section > p {
+    color: brown;
+    font-size: 50px;
+}

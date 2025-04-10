@@ -1,0 +1,13 @@
+#paragrafo {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
