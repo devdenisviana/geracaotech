@@ -1,33 +1,66 @@
-/* Fonte padrão da página */
+/* Estilo moderno do corpo */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin: 0;
-  }
-  
-  /* Classes diferentes para as habilidades */
-  .html {
-    color: #e67e22;
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .css {
-    color: #2980b9;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  .js {
-    color: #f1c40f;
-    font-size: 120%;
-    margin-bottom: 10px;
-  }
-  
-  /* Unidades relativas nos elementos */
-  section ul {
-    padding-left: 2em;
-    margin-top: 1.5em;
-  }
-  
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #2f3640, #353b48);
+  color: #f5f6fa;
+  padding: 20px;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Estilo e transição suave nas habilidades */
+.html, .css, .js {
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Estilos com cores e efeitos de hover */
+.html {
+  background-color: #e17055;
+}
+
+.html:hover {
+  background-color: #d63031;
+  transform: scale(1.05);
+}
+
+.css {
+  background-color: #74b9ff;
+}
+
+.css:hover {
+  background-color: #0984e3;
+  transform: scale(1.05);
+}
+
+.js {
+  background-color: #ffeaa7;
+  color: #2d3436;
+}
+
+.js:hover {
+  background-color: #fdcb6e;
+  transform: scale(1.05);
+}
+
+/* Animação de hover para imagem */
+.image-hover {
+  border-radius: 10px;
+  transition: transform 0.4s ease, filter 0.4s ease;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.image-hover:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+/* Ajustes na lista */
+section ul {
+  padding-left: 1.5em;
+  list-style: square;
+}
