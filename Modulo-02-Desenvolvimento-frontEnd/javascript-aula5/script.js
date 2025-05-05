@@ -1,18 +1,21 @@
 let mode = "green";
 
-switch(mode) {
-    case "dark":
-        document.querySelector("body").style.backgroundColor = "#222222";
-        break;
+console.log(mode ? "esta definida" : "nao esta definida");
 
-    case "red":
-        document.querySelector("body").style.backgroundColor = "#FF0000";   
-        break;
 
-        case "blue":
-        document.querySelector("body").style.backgroundColor = "#0000FF";   
-        break;
+// switch(mode) {
+//     case "dark":
+//         document.querySelector("body").style.backgroundColor = "#222222";
+//         break;
 
-        default:
-        document.querySelector("body").style.backgroundColor = "#FF00FF";
-}
+//     case "red":
+//         document.querySelector("body").style.backgroundColor = "#FF0000";   
+//         break;
+
+//         case "blue":
+//         document.querySelector("body").style.backgroundColor = "#0000FF";   
+//         break;
+
+//         default:
+//         document.querySelector("body").style.backgroundColor = "#FF00FF";
+// }
