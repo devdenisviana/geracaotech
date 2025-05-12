@@ -61,6 +61,13 @@ header input {
     top: 0;
     left: 0;
     z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 200ms;
+}
+#overlay.active {
+    visibility: visible;
+    opacity: 1;
 }
 .modal {
     width: 400px;
@@ -72,11 +79,21 @@ header input {
     left: 50%;
     z-index: 2;
     transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 200ms;
+}
+.modal.active {
+    visibility: visible;
+    opacity: 1;
 }
 .modal form h3 {
     font-size: 24px;
     color: #999;
     margin-bottom: 26px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .modal form label {
     display: block;

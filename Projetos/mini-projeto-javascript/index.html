@@ -12,15 +12,15 @@
     </header>
     <main>
         <section id="tarefas">
-            <h2>Tarefas <button>Nova tarefa</button></h2>
+            <h2>Tarefas <button onclick="novaTarefa()">Nova tarefa</button></h2>
             <h6>Nenhuma tarefa registrada</h6>
         </section>
 
-        <section id="overlay"></section>
+        <section id="overlay" onclick="fecharModal()"></section>
 
-        <div class="modal">
+        <div class="modal" id="criarTarefa">
             <form>
-                <h3>Criar Tarefa</h3>
+                <h3>Criar Tarefa <i class="fa-solid fa-xmark" onclick="fecharModal()"></i></h3>
                 <label for="titulo">Título</label>
                 <input type="text" id="titulo">
 
@@ -32,5 +32,6 @@
     </main>
 
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e554637d8b.js" crossorigin="anonymous"></script>
 </body>
 </html>
